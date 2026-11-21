@@ -1,0 +1,20 @@
+# Dependencies (reinstalled with npm install / backend\start.ps1)
+node_modules/
+backend/.venv/
+
+# Build output and runtime data
+dist/
+backend/data/
+__pycache__/
+*.pyc
+
+# Local settings and secrets
+.env
+.env.*
+.claude/
+
+# Model weights are large; see backend/README.md
+backend/models/*.pt
+
+# TypeScript build cache
+*.tsbuildinfo
